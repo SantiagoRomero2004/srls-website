@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SRLS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f6f6f6;
+      color: #333;
+    }
+
+    header {
+      background-color: #3A86FF;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffbe0b;
+    }
+
+    section {
+      padding: 60px 40px;
+    }
+
+    .section-title {
+      font-size: 28px;
+      color: #3A86FF;
+      margin-bottom: 20px;
+    }
+
+    .productos, .sobre-nosotros, .contacto {
+      background: white;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .footer {
+      background-color: #3A86FF;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #ff006e;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #d1005c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SRLS</h1>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#sobre-nosotros">Sobre nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="productos" class="productos">
+      <h2 class="section-title">Nuestros Productos</h2>
+      <p>Ofrecemos soluciones digitales innovadoras que se adaptan a las necesidades de nuestros clientes. Próximamente publicaremos nuestros productos.</p>
+      <a class="button" href="#contacto">Contáctanos</a>
+    </section>
+
+    <section id="sobre-nosotros" class="sobre-nosotros">
+      <h2 class="section-title">Sobre nosotros</h2>
+      <p>Somos Santiago Romero y Lukas Seren, dos apasionados por la tecnología y la creación de experiencias digitales modernas. Nuestro enfoque es profesional, minimalista y centrado en el usuario.</p>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2 class="section-title">Contacto</h2>
+      <p>¿Querés trabajar con nosotros? Escribinos a <strong>srls.contacto@gmail.com</strong> o dejanos tu mensaje por redes sociales.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 SRLS. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
